@@ -1,0 +1,24 @@
+Moleculer Microservices Demo - Console Logs
+
+1)
+
+[2024-04-03T23:16:20.697Z] INFO  nickrabone-5236/BROKER: Moleculer v0.14.33 is starting...
+[2024-04-03T23:16:20.707Z] INFO  nickrabone-5236/BROKER: Namespace: <not defined>
+[2024-04-03T23:16:20.707Z] INFO  nickrabone-5236/BROKER: Node ID: nickrabone-5236
+[2024-04-03T23:16:20.710Z] INFO  nickrabone-5236/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-03T23:16:20.711Z] INFO  nickrabone-5236/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-03T23:16:20.731Z] INFO  nickrabone-5236/BROKER: Serializer: JSONSerializer
+[2024-04-03T23:16:20.844Z] INFO  nickrabone-5236/BROKER: Validator: FastestValidator
+[2024-04-03T23:16:20.848Z] INFO  nickrabone-5236/BROKER: Registered 13 middleware(s).
+file:///D:/Projects3/JAVASCRIPT/02-BRAD-TRAVERSY/00%20YOUTUBE%20PROJECTS/08-Microservices/index.js:7
+  name: greeter,
+        ^
+
+ReferenceError: greeter is not defined
+    at file:///D:/Projects3/JAVASCRIPT/02-BRAD-TRAVERSY/00%20YOUTUBE%20PROJECTS/08-Microservices/index.js:7:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:66:12)
+
+2)

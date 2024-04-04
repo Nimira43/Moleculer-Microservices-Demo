@@ -87,7 +87,62 @@ Email sent to lenny@cats.com
 [2024-04-04T03:16:38.613Z] INFO  nickrabone-18220/EMAIL: Service 'email' stopped.
 [2024-04-04T03:16:38.614Z] INFO  nickrabone-18220/BROKER: ServiceBroker is stopped. Good bye. 
 
+5)
 
+[2024-04-04T03:40:03.067Z] INFO  nickrabone-19144/BROKER: Moleculer v0.14.33 is starting...
+[2024-04-04T03:40:03.074Z] INFO  nickrabone-19144/BROKER: Namespace: <not defined>
+[2024-04-04T03:40:03.075Z] INFO  nickrabone-19144/BROKER: Node ID: nickrabone-19144
+[2024-04-04T03:40:03.077Z] INFO  nickrabone-19144/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-04T03:40:03.079Z] INFO  nickrabone-19144/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-04T03:40:03.150Z] INFO  nickrabone-19144/BROKER: Serializer: JSONSerializer
+[2024-04-04T03:40:03.219Z] INFO  nickrabone-19144/BROKER: Validator: FastestValidator
+[2024-04-04T03:40:03.238Z] INFO  nickrabone-19144/BROKER: Registered 13 middleware(s).
+[2024-04-04T03:40:03.317Z] INFO  nickrabone-19144/BROKER: Moleculer v0.14.33 is starting...
+[2024-04-04T03:40:03.318Z] INFO  nickrabone-19144/BROKER: Namespace: <not defined>
+[2024-04-04T03:40:03.319Z] INFO  nickrabone-19144/BROKER: Node ID: nickrabone-19144
+[2024-04-04T03:40:03.451Z] INFO  nickrabone-19144/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-04T03:40:03.504Z] INFO  nickrabone-19144/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-04T03:40:03.574Z] INFO  nickrabone-19144/BROKER: Serializer: JSONSerializer
+[2024-04-04T03:40:03.586Z] INFO  nickrabone-19144/BROKER: Validator: FastestValidator
+[2024-04-04T03:40:03.588Z] INFO  nickrabone-19144/BROKER: Registered 13 middleware(s).
+[2024-04-04T03:40:03.601Z] INFO  nickrabone-19144/BROKER: Moleculer v0.14.33 is starting...       
+[2024-04-04T03:40:03.605Z] INFO  nickrabone-19144/BROKER: Namespace: <not defined>
+[2024-04-04T03:40:03.606Z] INFO  nickrabone-19144/BROKER: Node ID: nickrabone-19144
+[2024-04-04T03:40:03.607Z] INFO  nickrabone-19144/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-04T03:40:03.608Z] INFO  nickrabone-19144/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-04T03:40:03.656Z] INFO  nickrabone-19144/BROKER: Serializer: JSONSerializer
+[2024-04-04T03:40:03.658Z] INFO  nickrabone-19144/BROKER: Validator: FastestValidator
+[2024-04-04T03:40:03.659Z] INFO  nickrabone-19144/BROKER: Registered 13 middleware(s).
+[2024-04-04T03:40:03.699Z] INFO  nickrabone-19144/REGISTRY: '$node' service is registered.
+[2024-04-04T03:40:03.705Z] INFO  nickrabone-19144/REGISTRY: 'user' service is registered.
+[2024-04-04T03:40:03.707Z] INFO  nickrabone-19144/$NODE: Service '$node' started.
+[2024-04-04T03:40:03.710Z] INFO  nickrabone-19144/USER: Service 'user' started.
+[2024-04-04T03:40:03.717Z] INFO  nickrabone-19144/BROKER: ✔ ServiceBroker with 2 service(s) started successfully in 31ms.
+[2024-04-04T03:40:03.742Z] INFO  nickrabone-19144/REGISTRY: '$node' service is registered.
+[2024-04-04T03:40:03.748Z] INFO  nickrabone-19144/REGISTRY: 'email' service is registered.
+[2024-04-04T03:40:03.750Z] INFO  nickrabone-19144/$NODE: Service '$node' started.
+[2024-04-04T03:40:03.756Z] INFO  nickrabone-19144/EMAIL: Service 'email' started.
+[2024-04-04T03:40:03.758Z] INFO  nickrabone-19144/BROKER: ✔ ServiceBroker with 2 service(s) started successfully in 33ms.
+[2024-04-04T03:40:03.774Z] INFO  nickrabone-19144/REGISTRY: '$node' service is registered.
+[2024-04-04T03:40:03.783Z] INFO  nickrabone-19144/REGISTRY: 'auth' service is registered.
+[2024-04-04T03:40:03.819Z] INFO  nickrabone-19144/$NODE: Service '$node' started.
+[2024-04-04T03:40:03.822Z] INFO  nickrabone-19144/AUTH: Service 'auth' started.
+[2024-04-04T03:40:03.823Z] INFO  nickrabone-19144/BROKER: ✔ ServiceBroker with 2 service(s) started successfully in 64ms.
+New user created:  { id: 569, username: 'Lenny', email: 'lenny@cats.com' }
+All Users:  [ { id: 569, username: 'Lenny', email: 'lenny@cats.com' } ]
+Sending email to lenny@cats.com concerning Hamilton signs for Ferrari
+Content: Lewis Hamilton has signed for Ferrari and will join them in 2025.
+Email sent to lenny@cats.com
+Authentication Result:  { success: false, message: 'Authentication Rejected' }
+[2024-04-04T03:40:04.018Z] INFO  nickrabone-19144/$NODE: Service '$node' stopped.
+[2024-04-04T03:40:04.022Z] INFO  nickrabone-19144/USER: Service 'user' stopped.
+[2024-04-04T03:40:04.024Z] INFO  nickrabone-19144/BROKER: ServiceBroker is stopped. Good bye.     
+[2024-04-04T03:40:04.155Z] INFO  nickrabone-19144/$NODE: Service '$node' stopped.
+[2024-04-04T03:40:04.157Z] INFO  nickrabone-19144/EMAIL: Service 'email' stopped.
+[2024-04-04T03:40:04.158Z] INFO  nickrabone-19144/BROKER: ServiceBroker is stopped. Good bye.     
+[2024-04-04T03:40:04.275Z] INFO  nickrabone-19144/$NODE: Service '$node' stopped.
+[2024-04-04T03:40:04.276Z] INFO  nickrabone-19144/AUTH: Service 'auth' stopped.
+[2024-04-04T03:40:04.282Z] INFO  nickrabone-19144/BROKER: ServiceBroker is stopped. Good bye.   
 
 
 

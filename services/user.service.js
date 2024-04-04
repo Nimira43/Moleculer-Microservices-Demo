@@ -1,13 +1,7 @@
 import { ServiceBroker } from 'moleculer';
 
 const broker = new ServiceBroker();
-
-function generateId() {
-  return Math.floor(Math.random() * 1000) + 1
-}
-
-// const generateId = () => Math.floor(Math.random() * 1000) + 1 
-
+const generateId = () => Math.floor(Math.random() * 1000) + 1 
 const users = [];
 
 broker.createService({

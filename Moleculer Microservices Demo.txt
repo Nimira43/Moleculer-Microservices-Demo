@@ -2,23 +2,97 @@ Moleculer Microservices Demo - Console Logs
 
 1)
 
-[2024-04-03T23:16:20.697Z] INFO  nickrabone-5236/BROKER: Moleculer v0.14.33 is starting...
-[2024-04-03T23:16:20.707Z] INFO  nickrabone-5236/BROKER: Namespace: <not defined>
-[2024-04-03T23:16:20.707Z] INFO  nickrabone-5236/BROKER: Node ID: nickrabone-5236
-[2024-04-03T23:16:20.710Z] INFO  nickrabone-5236/REGISTRY: Strategy: RoundRobinStrategy
-[2024-04-03T23:16:20.711Z] INFO  nickrabone-5236/REGISTRY: Discoverer: LocalDiscoverer
-[2024-04-03T23:16:20.731Z] INFO  nickrabone-5236/BROKER: Serializer: JSONSerializer
-[2024-04-03T23:16:20.844Z] INFO  nickrabone-5236/BROKER: Validator: FastestValidator
-[2024-04-03T23:16:20.848Z] INFO  nickrabone-5236/BROKER: Registered 13 middleware(s).
-file:///D:/Projects3/JAVASCRIPT/02-BRAD-TRAVERSY/00%20YOUTUBE%20PROJECTS/08-Microservices/index.js:7
-  name: greeter,
-        ^
-
-ReferenceError: greeter is not defined
-    at file:///D:/Projects3/JAVASCRIPT/02-BRAD-TRAVERSY/00%20YOUTUBE%20PROJECTS/08-Microservices/index.js:7:9
-    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
-    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
-    at async loadESM (node:internal/process/esm_loader:34:7)
-    at async handleMainPromise (node:internal/modules/run_main:66:12)
+[2024-04-03T23:25:35.081Z] INFO  nickrabone-15804/BROKER: Moleculer v0.14.33 is starting...
+[2024-04-03T23:25:35.087Z] INFO  nickrabone-15804/BROKER: Namespace: <not defined>
+[2024-04-03T23:25:35.088Z] INFO  nickrabone-15804/BROKER: Node ID: nickrabone-15804
+[2024-04-03T23:25:35.090Z] INFO  nickrabone-15804/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-03T23:25:35.092Z] INFO  nickrabone-15804/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-03T23:25:35.125Z] INFO  nickrabone-15804/BROKER: Serializer: JSONSerializer
+[2024-04-03T23:25:35.202Z] INFO  nickrabone-15804/BROKER: Validator: FastestValidator
+[2024-04-03T23:25:35.213Z] INFO  nickrabone-15804/BROKER: Registered 13 middleware(s).
+[2024-04-03T23:25:35.310Z] INFO  nickrabone-15804/REGISTRY: '$node' service is registered.
+[2024-04-03T23:25:35.314Z] INFO  nickrabone-15804/REGISTRY: 'greeter' service is registered.
+[2024-04-03T23:25:35.316Z] INFO  nickrabone-15804/$NODE: Service '$node' started.
+[2024-04-03T23:25:35.318Z] INFO  nickrabone-15804/GREETER: Service 'greeter' started.
+[2024-04-03T23:25:35.323Z] INFO  nickrabone-15804/BROKER: ✔ ServiceBroker with 2 service(s) started successfully in 35ms.
+Hello Lenny
+[2024-04-03T23:25:35.459Z] INFO  nickrabone-15804/$NODE: Service '$node' stopped.
+[2024-04-03T23:25:35.460Z] INFO  nickrabone-15804/GREETER: Service 'greeter' stopped.
+[2024-04-03T23:25:35.461Z] INFO  nickrabone-15804/BROKER: ServiceBroker is stopped. Good bye.
 
 2)
+
+[2024-04-04T00:13:47.760Z] INFO  nickrabone-17904/BROKER: Moleculer v0.14.33 is starting...
+[2024-04-04T00:13:47.766Z] INFO  nickrabone-17904/BROKER: Namespace: <not defined>
+[2024-04-04T00:13:47.767Z] INFO  nickrabone-17904/BROKER: Node ID: nickrabone-17904
+[2024-04-04T00:13:47.770Z] INFO  nickrabone-17904/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-04T00:13:47.772Z] INFO  nickrabone-17904/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-04T00:13:47.812Z] INFO  nickrabone-17904/BROKER: Serializer: JSONSerializer
+[2024-04-04T00:13:47.888Z] INFO  nickrabone-17904/BROKER: Validator: FastestValidator
+[2024-04-04T00:13:47.895Z] INFO  nickrabone-17904/BROKER: Registered 13 middleware(s).
+[2024-04-04T00:13:47.953Z] INFO  nickrabone-17904/REGISTRY: '$node' service is registered.
+[2024-04-04T00:13:47.960Z] INFO  nickrabone-17904/REGISTRY: 'user' service is registered.
+[2024-04-04T00:13:47.962Z] INFO  nickrabone-17904/$NODE: Service '$node' started.
+[2024-04-04T00:13:47.964Z] INFO  nickrabone-17904/USER: Service 'user' started.
+[2024-04-04T00:13:47.968Z] INFO  nickrabone-17904/BROKER: ✔ ServiceBroker with 2 service(s) started successfully in 32ms.
+New user created:  { id: 639, username: 'Lenny', email: 'lenny@cats.com' }
+All Users:  [ { id: 639, username: 'Lenny', email: 'lenny@cats.com' } ]
+[2024-04-04T00:13:48.093Z] INFO  nickrabone-17904/$NODE: Service '$node' stopped.
+[2024-04-04T00:13:48.094Z] INFO  nickrabone-17904/USER: Service 'user' stopped.
+[2024-04-04T00:13:48.095Z] INFO  nickrabone-17904/BROKER: ServiceBroker is stopped. Good bye. 
+
+3) Code not used
+
+// function generateId() {
+//   return Math.floor(Math.random() * 1000) + 1
+// }
+
+4)
+
+[2024-04-04T03:16:37.817Z] INFO  nickrabone-18220/BROKER: Moleculer v0.14.33 is starting...
+[2024-04-04T03:16:37.825Z] INFO  nickrabone-18220/BROKER: Namespace: <not defined>
+[2024-04-04T03:16:37.826Z] INFO  nickrabone-18220/BROKER: Node ID: nickrabone-18220
+[2024-04-04T03:16:37.828Z] INFO  nickrabone-18220/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-04T03:16:37.830Z] INFO  nickrabone-18220/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-04T03:16:37.918Z] INFO  nickrabone-18220/BROKER: Serializer: JSONSerializer
+[2024-04-04T03:16:37.973Z] INFO  nickrabone-18220/BROKER: Validator: FastestValidator
+[2024-04-04T03:16:37.997Z] INFO  nickrabone-18220/BROKER: Registered 13 middleware(s).
+[2024-04-04T03:16:38.083Z] INFO  nickrabone-18220/BROKER: Moleculer v0.14.33 is starting...
+[2024-04-04T03:16:38.096Z] INFO  nickrabone-18220/BROKER: Namespace: <not defined>
+[2024-04-04T03:16:38.103Z] INFO  nickrabone-18220/BROKER: Node ID: nickrabone-18220
+[2024-04-04T03:16:38.118Z] INFO  nickrabone-18220/REGISTRY: Strategy: RoundRobinStrategy
+[2024-04-04T03:16:38.150Z] INFO  nickrabone-18220/REGISTRY: Discoverer: LocalDiscoverer
+[2024-04-04T03:16:38.220Z] INFO  nickrabone-18220/BROKER: Serializer: JSONSerializer
+[2024-04-04T03:16:38.222Z] INFO  nickrabone-18220/BROKER: Validator: FastestValidator
+[2024-04-04T03:16:38.226Z] INFO  nickrabone-18220/BROKER: Registered 13 middleware(s).
+[2024-04-04T03:16:38.269Z] INFO  nickrabone-18220/REGISTRY: '$node' service is registered.
+[2024-04-04T03:16:38.276Z] INFO  nickrabone-18220/REGISTRY: 'user' service is registered.
+[2024-04-04T03:16:38.280Z] INFO  nickrabone-18220/$NODE: Service '$node' started.
+[2024-04-04T03:16:38.306Z] INFO  nickrabone-18220/USER: Service 'user' started.
+[2024-04-04T03:16:38.312Z] INFO  nickrabone-18220/BROKER: ✔ ServiceBroker with 2 service(s) started successfully in 57ms.
+[2024-04-04T03:16:38.326Z] INFO  nickrabone-18220/REGISTRY: '$node' service is registered.
+[2024-04-04T03:16:38.334Z] INFO  nickrabone-18220/REGISTRY: 'email' service is registered.
+[2024-04-04T03:16:38.336Z] INFO  nickrabone-18220/$NODE: Service '$node' started.
+[2024-04-04T03:16:38.337Z] INFO  nickrabone-18220/EMAIL: Service 'email' started.
+[2024-04-04T03:16:38.338Z] INFO  nickrabone-18220/BROKER: ✔ ServiceBroker with 2 service(s) started successfully in 22ms.
+New user created:  { id: 567, username: 'Lenny', email: 'lenny@cats.com' }
+All Users:  [ { id: 567, username: 'Lenny', email: 'lenny@cats.com' } ]
+Sending email to lenny@cats.com concerning Hamilton signs for Ferrari
+Content: Lewis Hamilton has signed for Ferrari and will join them in 2025.
+Email sent to lenny@cats.com
+[2024-04-04T03:16:38.492Z] INFO  nickrabone-18220/$NODE: Service '$node' stopped.
+[2024-04-04T03:16:38.493Z] INFO  nickrabone-18220/USER: Service 'user' stopped.
+[2024-04-04T03:16:38.494Z] INFO  nickrabone-18220/BROKER: ServiceBroker is stopped. Good bye.     
+[2024-04-04T03:16:38.612Z] INFO  nickrabone-18220/$NODE: Service '$node' stopped.
+[2024-04-04T03:16:38.613Z] INFO  nickrabone-18220/EMAIL: Service 'email' stopped.
+[2024-04-04T03:16:38.614Z] INFO  nickrabone-18220/BROKER: ServiceBroker is stopped. Good bye. 
+
+
+
+
+
+
+
+
+
+
